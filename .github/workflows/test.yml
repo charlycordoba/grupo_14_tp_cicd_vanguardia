@@ -12,7 +12,7 @@ jobs:
     # Le indicamos a GitHub que corra todos los comandos dentro de tu carpeta
     defaults:
       run:
-        working-directory: C:\Users\Administrador\Documents\git-proyect\git-vanguardia\web_test # <-- REEMPLAZÁ "app" POR EL NOMBRE REAL DE TU CARPETA
+        working-directory: .\git-proyect\git-vanguardia\web_test # <-- REEMPLAZÁ "app" POR EL NOMBRE REAL DE TU CARPETA
 
     steps:
       - name: Descargar repositorio
